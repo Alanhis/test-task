@@ -1,0 +1,26 @@
+.main_section{
+    border: 2px solid;
+    border-radius: 35px;
+    padding: 20px;
+}
+.main_title{
+    font-family: monospace;
+    font-size: 1.5em;
+}
+.form_body{
+    display: flex;
+    justify-content: space-around;
+}
+.main_form_input{
+    background: none;
+    border: none;
+    height: 3vh;
+}
+@media screen and (max-width: 375px) {
+   .form_body{
+    flex-direction: column;
+   }
+   .form_body > .flex_container> *{
+    text-align: center;
+   }
+}

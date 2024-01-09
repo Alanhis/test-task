@@ -1,0 +1,105 @@
+{
+    "quizTitle": "React Quiz",
+    "questions": [
+      {
+        "question": "What is the virtual DOM in React?",
+        "options": [
+          "A virtual representation of the browser's DOM",
+          "The actual DOM tree structure",
+          "A backup of the DOM",
+          "A lightweight version of the DOM"
+        ],
+        "answer": "A virtual representation of the browser's DOM"
+      },
+      {
+        "question": "What is JSX in React?",
+        "options": [
+          "JavaScript XML",
+          "JSON XML",
+          "JavaScript Syntax XML",
+          "Java XML"
+        ],
+        "answer": "JavaScript XML"
+      },
+      {
+        "question": "What function is used to change the state in React?",
+        "options": [
+          "this.setState()",
+          "this.modifyState()",
+          "this.changeState()",
+          "this.stateChange()"
+        ],
+        "answer": "this.setState()"
+      },
+      {
+        "question": "What is the purpose of the `children` prop in React?",
+        "options": [
+          "To pass the data from one component to another",
+          "To render the content inside a component",
+          "To manage the lifecycle of a component",
+          "To handle user events in a component"
+        ],
+        "answer": "To render the content inside a component"
+      },
+      {
+        "question": "What is the main purpose of React components?",
+        "options": [
+          "State management",
+          "UI components",
+          "Event handling",
+          "Data fetching"
+        ],
+        "answer": "State management"
+      },
+      {
+        "question": "What is the `setState` function in React?",
+        "options": [
+          "A function to change the state in React",
+          "A function to fetch data in React",
+          "A function to render the content in React",
+          "A function to handle user events in React"
+        ],
+        "answer": "A function to change the state in React"
+      },
+      {
+        "question": "What is the `props` in React?",
+        "options": [
+          "A function to change the state in React",
+          "A function to fetch data in React",
+          "A function to render the content in React",
+          "A way to pass data from one component to another"
+        ],
+        "answer": "A way to pass data from one component to another"
+      },
+      {
+        "question": "What is the `this.props` in React?",
+        "options": [
+          "A function to change the state in React",
+          "A function to fetch data in React",
+          "A function to render the content in React",
+          "A way to pass data from one component to another"
+        ],
+        "answer": "A way to pass data from one component to another"
+      },
+      {
+        "question": "What is the `this.state` in React?",
+        "options": [
+          "A function to change the state in React",
+          "A function to fetch data in React",
+          "A function to render the content in React",
+          "A way to manage state in React components"
+        ],
+        "answer": "A way to manage state in React components"
+      },
+      {
+        "question": "What is the `componentDidMount` lifecycle method in React?",
+        "options": [
+          "A function to change the state in React",
+          "A function to fetch data in React",
+          "A function to render the content in React",
+          "A method to run code after a component is mounted"
+        ],
+        "answer": "A method to run code after a component is mounted"
+      }
+    ]
+  }
