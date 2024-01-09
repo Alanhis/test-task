@@ -48,8 +48,8 @@ function QuizPage(){
     return(
        <section className="quiz_container">
        <progress value="75" max="100" style={{"--value": quizIndex*10, "--max": 100}}></progress>
-       <h1>It&apos;s Quiz time</h1>
-        <section>
+      
+        <section className="flex_container">
         <h3>{quiz.questions[quizIndex].question}</h3>
         <section className="flex_container">
         {quiz.questions[quizIndex].options.map((option, index) => 

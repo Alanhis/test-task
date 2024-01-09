@@ -91,4 +91,11 @@
   border: 2px solid;
   border-radius: 25px;
   padding: 35px;
+  min-width: 270px;
+}
+@media screen and (max-width: 375px) {
+  .quiz_container{
+    min-width: auto;
+  }
+  
 }
