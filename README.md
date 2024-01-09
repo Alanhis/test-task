@@ -1,8 +1,19 @@
-# React + Vite
+# test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Небольшой проект c Quiz-ом на 10 вопросов по 4 варианта ответа
 
-Currently, two official plugins are available:
+# Технологии
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+В проекте используется:
+1. React
+2. Effector
+3. Effector-Storage
+4. Effector-React
+5. React-Dom
+
+# Развертывание и запуск
+
+Для полноценной работы с проектом необходимо:
+1. Скопировать сам проект через клонирование. Делается с использование `git clone git@github.com:Alanhis/test-task.git`
+2. Установить необходимые зависомости. Выполняется командой `npm i`
+3. Запустить проект. Запусается командой `npm run dev`
